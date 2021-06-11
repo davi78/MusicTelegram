@@ -38,7 +38,7 @@ Saya Memiliki Banyak Fitur Praktis Seperti :
 ┣• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkap saya
 ┗━━━━━━━━━━━━━━
 ❃ Managed With ❤ By {OWNER}
-❃ Thanks To [Risman](https://t.me/mrismanaziz)
+❃ Thanks To [Davi](https://t.me/cintlok)
 ━━━━━━━━━━━━━━━
 Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
 </b>""",
@@ -55,7 +55,7 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
                     InlineKeyboardButton(
                         "💬 Channel Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
                     InlineKeyboardButton(
-                        "⛑ Group Support", url=f"https://t.me/{SUPPORT_GROUP}")
+                        "⛑ Cari Teman", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
                         "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
@@ -170,7 +170,7 @@ async def reload(client: Client, message: Message):
                         "Group Support", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        "Owner", url=f"https://t.me/mrismanaziz"
+                        "Owner", url=f"https://t.me/cintlok"
                     )
                 ]
             ]
