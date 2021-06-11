@@ -55,7 +55,7 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
                     InlineKeyboardButton(
                         "💬 Channel Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
                     InlineKeyboardButton(
-                        "⛑ Cari Teman", url=f"https://t.me/{SUPPORT_GROUP}")
+                        "⛑ Grup Chat", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
                         "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
@@ -125,7 +125,7 @@ async def start(client: Client, message: Message):
             [   
                 [    
                     InlineKeyboardButton(
-                        "✅ Ya", switch_inline_query_current_chat=""
+                        "Instagram", url="https://instagram.com/davialfajr_"
                     ),
                     InlineKeyboardButton(
                         "❌ Tidak ", callback_data="close"
