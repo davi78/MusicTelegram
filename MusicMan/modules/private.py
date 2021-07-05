@@ -120,7 +120,7 @@ def map(pos):
 )
 async def start(client: Client, message: Message):
     await message.reply_text(
-        "💁🏻‍♂️ **Apakah Anda ingin mencari Link YouTube?**",
+        "💁🏻‍♂️ **Bot music siap digunakan :v \nKetik /play judul lagu \n contoh /play melukis senja**",
         reply_markup=InlineKeyboardMarkup(
             [   
                 [    
